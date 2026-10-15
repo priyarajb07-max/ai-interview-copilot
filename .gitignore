@@ -1,7 +1,5 @@
 
-# =========================
-# ENVIRONMENT VARIABLES & SECRETS
-# =========================
+# Secrets and environment variables
 .env
 .env.*
 !.env.example
@@ -10,35 +8,25 @@
 secrets/
 credentials/
 
-# =========================
-# PYTHON CACHE
-# =========================
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 
-# =========================
-# VIRTUAL ENVIRONMENTS
-# =========================
+# Virtual environments
 venv/
 .venv/
 env/
 ENV/
 
-# =========================
-# PYTHON PACKAGING
-# =========================
+# Build and packaging
 build/
 dist/
 *.egg-info/
 .eggs/
 wheels/
-pip-wheel-metadata/
 
-# =========================
-# TESTING & COVERAGE
-# =========================
+# Testing and coverage
 .pytest_cache/
 .coverage
 .coverage.*
@@ -46,22 +34,16 @@ htmlcov/
 .tox/
 .nox/
 
-# =========================
-# TYPE CHECKING & LINTING
-# =========================
+# Linters and type checking
 .mypy_cache/
 .pyright/
 .ruff_cache/
 
-# =========================
-# LOGS
-# =========================
+# Logs
 *.log
 logs/
 
-# =========================
-# IDE & EDITOR
-# =========================
+# IDE and operating system files
 .vscode/
 .idea/
 *.swp
@@ -69,16 +51,11 @@ logs/
 .DS_Store
 Thumbs.db
 
-# =========================
-# JUPYTER
-# =========================
+# Jupyter
 .ipynb_checkpoints/
 
-# =========================
-# LOCAL DATABASE & BACKUPS
-# =========================
+# Local databases and backups
 *.sqlite3
 *.db
 dump/
 backups/
-
